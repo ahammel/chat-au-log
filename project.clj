@@ -1,6 +1,6 @@
 (defproject chat-au-log "0.1.0-SNAPSHOT"
   :description "My Cool Project"
-  :license {:name "MIT" :url "https://opensource.org/licenses/MIT"}
+  :license {:name "LGPLv3" :url "https://www.gnu.org/licenses/lgpl-3.0.en.html"}
   :min-lein-version "2.7.0"
 
   :dependencies [[org.clojure/clojure "1.9.0"]
