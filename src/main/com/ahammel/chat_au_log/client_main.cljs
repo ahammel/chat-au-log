@@ -1,4 +1,4 @@
-(ns chat-au-log.client-main
+(ns com.ahammel.chat-au-log.client-main
   (:require [chat-au-log.client :as client]
             [fulcro.client :as core]
             [chat-au-log.ui.root :as root]))

@@ -1,4 +1,4 @@
-(ns chat-au-log.api.read
+(ns com.ahammel.chat-au-log.api.read
   (:require
     [fulcro.server :refer [defquery-entity]]
     [taoensso.timbre :as timbre]))

@@ -1,4 +1,4 @@
-(ns chat-au-log.ui.root
+(ns com.ahammel.chat-au-log.ui.root
   (:require
     [fulcro.client.mutations :as m]
     [fulcro.client.data-fetch :as df]

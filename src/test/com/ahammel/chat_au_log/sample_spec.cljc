@@ -1,4 +1,4 @@
-(ns chat-au-log.sample-spec
+(ns com.ahammel.chat-au-log.sample-spec
   (:require
     [fulcro-spec.core :refer [specification provided behavior assertions]]))
 

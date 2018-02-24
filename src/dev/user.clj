@@ -5,7 +5,7 @@
     [figwheel-sidecar.system :as fig]
     [fulcro-spec.suite :as suite]
     [fulcro-spec.selectors :as sel]
-    chat-au-log.server))
+    com.ahammel.chat-au-log.server))
 
 ;;FIGWHEEL
 (def figwheel (atom nil))
@@ -50,7 +50,7 @@
 
 (defn- init []
   {:pre [(not (started? @system))]}
-  (when-let [new-system (chat-au-log.server/build-server {:config "config/dev.edn"})]
+  (when-let [new-system (com.ahammel.chat-au-log.server/build-server {:config "config/dev.edn"})]
     (reset! system new-system)))
 
 (defn- start []

@@ -1,4 +1,4 @@
-(ns chat-au-log.CI-runner
+(ns com.ahammel.chat-au-log.CI-runner
   (:require
     chat-au-log.tests-to-run
     [doo.runner :refer-macros [doo-all-tests]]))

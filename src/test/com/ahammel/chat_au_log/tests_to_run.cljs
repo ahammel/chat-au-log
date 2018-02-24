@@ -1,4 +1,4 @@
-(ns chat-au-log.tests-to-run
+(ns com.ahammel.chat-au-log.tests-to-run
   (:require
     chat-au-log.sample-spec))
 

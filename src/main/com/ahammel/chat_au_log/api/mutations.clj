@@ -1,4 +1,4 @@
-(ns chat-au-log.api.mutations
+(ns com.ahammel.chat-au-log.api.mutations
   (:require
     [taoensso.timbre :as timbre]
     [fulcro.server :refer [defmutation]]))

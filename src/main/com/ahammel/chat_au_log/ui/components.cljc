@@ -1,4 +1,4 @@
-(ns chat-au-log.ui.components
+(ns com.ahammel.chat-au-log.ui.components
   (:require
     [fulcro.client.primitives :as prim :refer [defsc]]
     [fulcro.client.dom :as dom]))

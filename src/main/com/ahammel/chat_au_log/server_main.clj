@@ -1,4 +1,4 @@
-(ns chat-au-log.server-main
+(ns com.ahammel.chat-au-log.server-main
   (:require
     [com.stuartsierra.component :as component]
     [fulcro.server :as c]
