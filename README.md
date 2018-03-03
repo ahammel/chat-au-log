@@ -1,4 +1,78 @@
-# The Project
+# chat-au-log
+
+
+```
+                                              .
+                                   .         ;
+      .              .              ;%     ;;
+        ,           ,                :;%  %;
+         :         ;                   :;%;'     .,
+,.        %;     %;            ;        %;'    ,;
+  ;       ;%;  %%;        ,     %;    ;%;    ,%'
+   %;       %;%;      ,  ;       %;  ;%;   ,%;'
+    ;%;      %;        ;%;        % ;%;  ,%;'
+     `%;.     ;%;     %;'         `;%%;.%;'
+      `:;%.    ;%%. %@;        %; ;@%;%'
+         `:%;.  :;bd%;          %;@%;'
+           `@%:.  :;%.         ;@@%;'
+             `@%.  `;@%.      ;@@%;
+               `@%%. `@%%    ;@@%;
+                 ;@%. :@%%  %@@%;
+                   %@bd%%%bd%%:;
+                     #@%%%%%:;;
+                     %@@%%%::;
+                     %@@@%(o);  . '
+                     %@@@o%;:(.,'
+                 `.. %@@@o%::;     _                ___       _.--.
+                    `)@@@o%::;     \`.|\..----...-'`   `-._.-'_.-'`
+                     %@@(o)::;     /  ' `         ,       __.--'
+                    .%@@@@%::;     )/' _/     \   `-_,   /
+                    ;%@@@@%::;.    `-'" `"\_  ,_.-;_.-\_ ',
+                   ;%@@@@%%:;;;.       _.-'_./   {_.'   ; /
+               ...;%@@@@@%%:;;;;,..   {_.-``-'         {_/
+```
+
+## What is chat-au-log?
+
+It's a tool for creating [controlled vocabularies](https://en.wikipedia.org/wiki/Controlled_vocabulary),
+and using them to catalogue works.
+
+### Why?
+
+My goal is to create a tool that technical teams can use to organize the random
+assortment of documentation, FAQs, research papers, blog posts, functional
+specifications, mock-ups, wire-frames, memoranda, and blurry cell phone
+pictures of whiteboards that make up the institutional knowledge of every
+company I've ever worked for. Making all this information accessible to the
+folks who need it is a huge challenge.
+
+An index using a controlled vocabulary offers a lot of promise over the
+traditional wiki/Google Drive/Dropbox/Slack approaches:
+
+* It brings a way to search for things that can't be easily indexed by text
+  (like pictures and PDFs)
+* It offers a way to build and document your organization's
+  [Ubiquitous language](https://en.wikipedia.org/wiki/Domain-driven_design#Concepts).
+* It offers the possibility of bringing together information across services
+  (not everything has to live in the company wiki).
+
+### Can I use it?
+
+There's not much to use yet, but go for it. The library functions live under
+the `com.ahammel.chat-au-log.domain` namespaces. Everything public in a
+namespace that doesn't end in `alpha` will be [spec'd](https://clojure.org/guides/spec)
+and [backwards compatible forever](https://github.com/matthiasn/talk-transcripts/blob/master/Hickey_Rich/Spec_ulation.md).
+
+#### Alpha graduation criteria
+
+I'll make a non-alpha release when:
+
+- [ ] There are library functions to create, and update a controlled vocabulary.
+- [ ] All of those are spec'd documented and tested.
+- [ ] I've imported a sample controlled vocabulary.
+- [ ] I think of a less stupid name.
+
+## The Project
 
 The main project source is in `src/main`.
 
