@@ -103,6 +103,7 @@
                                          [com.cemerick/piggieback "0.2.2"]
                                          [lein-doo "0.1.7" :scope "test"]
                                          [figwheel-sidecar "0.5.14" :exclusions [org.clojure/tools.reader]]
-                                         [devcards "0.2.4" :exclusions [cljsjs/react cljsjs/react-dom]]]
+                                         [devcards "0.2.4" :exclusions [cljsjs/react cljsjs/react-dom]]
+                                         [org.clojure/test.check "0.9.0"]]
                           :repl-options {:init-ns          user
                                          :nrepl-middleware [cemerick.piggieback/wrap-cljs-repl]}}})
